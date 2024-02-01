@@ -1,0 +1,8 @@
+services:
+  spark-playground:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../SparkCourse:/SparkCourse
+    shm_size: 12gb
