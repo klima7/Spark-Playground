@@ -5,4 +5,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ../SparkCourse:/SparkCourse
+      - ..:/workspace
     shm_size: 12gb

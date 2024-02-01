@@ -2,7 +2,7 @@
     "name": "spark-playground",
     "dockerComposeFile": ["docker-compose.yml"],
     "service": "spark-playground",
-    "workspaceFolder": "/SparkCourse",
+    "workspaceFolder": "/workspace",
     "shutdownAction": "stopCompose",
     "remoteUser": "vscode",
     "customizations": {
